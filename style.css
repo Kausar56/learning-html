@@ -1,13 +1,17 @@
-.box{
-    background-color: rebeccapurple;
-    color:aliceblue;
-    padding:10px;
-    margin-bottom: 10px;
+body{
+    background-color: red;
+    background-image:url(images/deep-web-cover.jpg);
+    height: 100%;
+    color: white;
+    background-attachment:scroll;
+    
 }
 
-.git{
-    background-color: rebeccapurple;
-    color:aliceblue;
-    padding:10px;
-    margin-bottom: 10px; 
+p{
+    background-position: bottom;
+}
+
+h2{
+    background-position:right top;
+    color: red;;
 }
