@@ -1,4 +1,4 @@
-p{
+/* p{
     text-align:center;
     text-color: red;
     font-size: 20px;
@@ -13,4 +13,73 @@ p{
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     outline: 10px dotted tomato;
+    text-decoration:underline;
+    text-decoration-color: violet;
+    text-decoration-style: 10px solid;
+} */
+
+
+#none{
+    text-decoration: none;
+    text-transform: none;
+}
+
+#underline{
+    text-decoration:underline;
+    text-transform:uppercase;
+}
+
+#overline {
+    text-decoration:overline;
+    text-transform:capitalize;
+    
+
+}
+
+#line{
+    text-decoration:line-through;
+    text-transform:lowercase;
+}
+
+#para{
+    text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+    text-indent: 300px;
+    line-height: 40px;
+}
+
+
+a:link{
+    color: red;
+
+}
+
+a:visited{
+    color: green;
+}
+
+
+a:hover{
+    color: rgb(199, 133, 133);
+}
+
+
+a:active{
+    color: rgb(55, 4, 236);
+}
+
+ul{
+    list-style-position: inside;
+     list-style-type: decimal;
+     padding:20px;
+     background-color: green;
+    /* width: 5px; */
+}
+
+ul li{
+    color: rgb(87, 255, 36);
+    padding: 5px;
+    margin-left: 20px;
+    background-color:blueviolet;
 }
